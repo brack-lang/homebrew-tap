@@ -1,4 +1,4 @@
-class Brack < Formula
+class BrackRc < Formula
   desc "A bracket-based lightweight markup language that extends commands with WebAssembly (RC version)"
   homepage "https://github.com/brack-lang/brack"
   license "MIT OR Apache-2.0"
