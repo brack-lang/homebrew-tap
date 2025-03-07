@@ -3,7 +3,7 @@ class BrackRc < Formula
   homepage "https://github.com/brack-lang/brack"
   license "MIT OR Apache-2.0"
 
-  version "0.2.0-rc.12"
+  version "0.2.0-rc.17"
 
   x86_64_darwin_sha256 = "1a5dac1a4626661714f35b844b27c2a6fb79abcf835e7a7dc63eafd3bb625cfa"
   aarch64_darwin_sha256 = "bf6c7e5343e866e7090ad36da657c1e2b36fc16573b5e5ff09267bff1381955a"
