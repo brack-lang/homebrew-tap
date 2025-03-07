@@ -8,7 +8,7 @@ class Brack < Formula
   x86_64_darwin_sha256 = ""
   aarch64_darwin_sha256 = ""
   x86_64_linux_sha256 = ""
-  release_base_url = "https://github.com/brack-lang/brack/releases/download/v#{brack_version}/"
+  release_base_url = "https://github.com/brack-lang/brack/releases/download/v#{version}/"
 
   on_macos do
     if Hardware::CPU.intel?
