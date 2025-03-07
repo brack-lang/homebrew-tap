@@ -1,4 +1,4 @@
-class Brack < Formula
+class BrackRc < Formula
   desc "A bracket-based lightweight markup language that extends commands with WebAssembly"
   homepage "https://github.com/brack-lang/brack"
   license "MIT OR Apache-2.0"
@@ -8,7 +8,7 @@ class Brack < Formula
   x86_64_darwin_sha256 = ""
   aarch64_darwin_sha256 = ""
   x86_64_linux_sha256 = ""
-  release_base_url = "https://github.com/brack-lang/brack/releases/download/v#{version}/"
+  release_base_url = "https://github.com/brack-lang/brack/releases/download/v#{version}"
 
   on_macos do
     if Hardware::CPU.intel?
