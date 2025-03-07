@@ -33,7 +33,7 @@ class Brack < Formula
   end
 
   test do
-    system "#{bin}/brack", "--version"
+    system "#{bin}/brack", "version"
   end
 end
 
